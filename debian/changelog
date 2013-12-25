@@ -1,5 +1,5 @@
-extlinux-themes-minimal (1) UNRELEASED; urgency=low
+extlinux-themes-minimal (1) unstable; urgency=low
 
   * Initial release.
 
- -- Mateusz Łukasik <mati75@linuxmint.pl>  Wed, 25 Dec 2013 21:12:36 +0100
+ -- Mateusz Łukasik <mati75@linuxmint.pl>  Wed, 25 Dec 2013 21:43:41 +0100
