@@ -1,0 +1,18 @@
+Source: extlinux-themes-minimal
+Section: misc
+Priority: optional
+Maintainer: Mateusz Łukasik <mati75@linuxmint.pl>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.5
+
+Package: extlinux-themes-debian-minimal
+Architecture: all
+Depends: ${misc:Depends}, os-prober, syslinux-common (>= 2:4.02+dfsg-7)
+Conflicts: syslinux-common (>= 3:6.00)
+Enhances: extlinux
+Description: minimal theme of boot loaders
+ SYSLINUX is a collection of boot loaders which operates off Linux ext2/3/4 or
+ btrfs filesystems, MS-DOS FAT filesystems, network servers using PXE firmware,
+ or from CD-ROMs.
+ .
+ This package contains the minimal graphical bootloader theme.
