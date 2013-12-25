@@ -4,6 +4,8 @@ Priority: optional
 Maintainer: Mateusz Łukasik <mati75@linuxmint.pl>
 Build-Depends: debhelper (>= 9)
 Standards-Version: 3.9.5
+Vcs-Git: git://github.com/mati75/extlinux-theme-minimal.git
+Vcs-Browser: https://github.com/mati75/extlinux-theme-minimal.git
 
 Package: extlinux-themes-debian-minimal
 Architecture: all
