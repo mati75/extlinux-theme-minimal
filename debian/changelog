@@ -1,3 +1,9 @@
+extlinux-themes-minimal (1.2) unstable; urgency=medium
+
+  * Add image background.
+
+ -- Mateusz Łukasik <mati75@linuxmint.pl>  Thu, 02 Jan 2014 17:12:37 +0100
+
 extlinux-themes-minimal (1.1.1) unstable; urgency=high
 
   * Fix typo.
