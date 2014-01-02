@@ -10,7 +10,7 @@ Vcs-Browser: https://github.com/mati75/extlinux-theme-minimal.git
 Package: extlinux-themes-minimal
 Architecture: all
 Depends: ${misc:Depends}, os-prober, syslinux-common (>= 2:4.02+dfsg-7)
-Conflicts: syslinux-common (>= 3:6.00)
+Breaks: syslinux-common (>= 3:6.00)
 Enhances: extlinux
 Description: minimal theme of boot loaders
  SYSLINUX is a collection of boot loaders which operates off Linux ext2/3/4 or
