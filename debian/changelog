@@ -1,4 +1,13 @@
-extlinux-themes-minimal (1) unstable; urgency=low
+extlinux-themes-minimal (1.1) unstable; urgency=medium
+
+  * Change theme colors.
+  * Add debian/postinst.
+  * debian/control:
+    + change Conflicts to Breaks.
+
+ -- Mateusz Łukasik <mati75@linuxmint.pl>  Thu, 02 Jan 2014 16:52:00 +0100
+
+extlinux-themes-minimal (1.0) unstable; urgency=low
 
   * Initial release.
 
