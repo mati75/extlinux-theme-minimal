@@ -4,8 +4,11 @@ set -e
 
 case "$1" in
     configure)
+	if [ -e /usr/share/syslinux/themes/minimal/extlinux/vesamenu.c32 ]; then
+		rm /usr/share/syslinux/themes/minimal/extlinux/vesamenu.c32
+	fi
 	if [ -e /usr/lib/syslinux/vesamenu.c32 ]; then
-        	ln -s /usr/lib/syslinux/vesamenu.c32 /usr/share/syslinux/themes/minimal/extlinux/vesamenu.c32
+		ln -s /usr/lib/syslinux/vesamenu.c32 /usr/share/syslinux/themes/minimal/extlinux/vesamenu.c32
 	fi
     ;;
 

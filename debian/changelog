@@ -1,3 +1,10 @@
+extlinux-themes-minimal (1.2.1) unstable; urgency=medium
+
+  * debian/postinst:
+    + fix upgrade bug.
+
+ -- Mateusz Łukasik <mati75@linuxmint.pl>  Thu, 02 Jan 2014 17:20:32 +0100
+
 extlinux-themes-minimal (1.2) unstable; urgency=medium
 
   * Add image background.
